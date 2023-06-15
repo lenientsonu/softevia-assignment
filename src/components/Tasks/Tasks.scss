@@ -1,0 +1,25 @@
+.task_list {
+    // width: 90%;
+    box-shadow: 0.1rem 0.1rem 1rem cyan;
+
+    .task {
+        // border: 1px solid red;
+        display: flex;
+        flex-direction: row;
+        // justify-content: space-evenly;
+
+        padding: 1rem;
+
+        background-color: transparent;
+        color: cyan;
+
+        // h3 {
+        //     font-size: 1.3rem;
+        //     font-weight: 600;
+        // }
+
+        &:hover {
+            background-color: black;
+        }
+    }
+}
